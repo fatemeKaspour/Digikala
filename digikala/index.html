@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="fa.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Digikala-Symbol-LimooGraphic-300x206.png">
+    <title> فروشگاه اینترنتی دیجی کالا </title>
+</head>
+<body>
+    <header class="header">
+        <a href=""><img class="logo" src="bc60cf05.svg" alt=""></a>
+        <div class="search">
+            <i class="fas fa-search search-icon"></i>
+            <input class="search-input" type="text" placeholder="جستجو در دیجی کالا">
+            <i class="fas fa-times-circle cancel-search-icon"></i>
+        </div>
+        <div class="user">
+            <a href="#" class="user-account"> <i class="fas fa-user user-account-icon"></i>  ورود به حساب کاربری</a><a href="#"></a>
+            <a href="#" class="user-shopping"><i class="fas fa-shopping-cart user-shopping-icon"></i></a>
+        </div>
+        <div class="user-position">
+            <a class="choose-city" href=""><i class="fas fa-map-marker-alt" ></i>لطفا شهر خود را انتخاب کنید</a>
+        </div>
+        
+    </header>
+    <!-- ---------------nav----------------- -->
+    <nav class="menu-container show">
+            <ul class="menu">
+                <li class="menu-item"><a href="#" class="menu-item-link"><i class="fas fa-bars nav-icon"></i>دسته‌بندی کالاها</a></li>
+                <li class="menu-item"><a href="#" class="menu-item-link"><i class="fas fa-shopping-basket nav-icon"></i>سوپر مارکت</a></li>
+                <li class="menu-item"><a href="#" class="menu-item-link"><i class="fas fa-money-bill nav-icon"></i>تخیف ها و پیشنهاد ها</a></li>
+                <li class="menu-item"><a href="#" class="menu-item-link"><i class="fas fa-smile-wink nav-icon"></i>دیجی کالای من</a></li>
+                <li class="menu-item"><a href="#" class="menu-item-link"><i class="fas fa-plus nav-icon"></i>دیجی پلاس</a></li>
+                <li class="menu-item"><a href="#" class="menu-item-link"><i class="fab fa-cc-diners-club nav-icon"></i>دیجی کلاب</a></li>
+                <li class="menu-item"><a href="#" class="menu-item-link">سوالی دارید؟</a></li>
+                <li class="menu-item"><a href="#" class="menu-item-link">فروشنده شوید</a></li>
+            </ul>
+        
+    </nav>
+    <a class="ham-menu">
+        <i class="fas fa-bars"></i>
+    </a>
+    <!-- ---------------primary_section ---------------->
+
+    <main class="main-section">
+        <div class="parts">
+            <a href="#" class="part-item">فروشگاه اینترنتی دیجی‌کالا</a>
+        </div>
+        <div class="product-list">
+            <nav class="filter">
+                <p class = "sort-filter">مرتب سازی بر اساس: <i class="fas fa-filter filter-icon"></i></p>
+                <!--------- ==renderFilter-------------->
+                <ul class = 'list-filter'></ul>
+                <!--------- !==renderFilter-------------->
+            </nav>
+        </div>
+        <span class="productsInsert"></span>
+        <footer>
+            <ul class="paginate">
+                <li class="paginate-list active"><a href="#" class="paginate-list-number">1</a></li>
+                <li class="paginate-list"><a href="#" class="paginate-list-number">2</a></li>
+            </ul>
+        </footer>
+    </main>
+    <script src="utils.js"></script>
+    <script src="repository.js"></script>
+    <script src="view.js"></script>
+    <script src="app.js"></script>
+
+</body>
+</html>
